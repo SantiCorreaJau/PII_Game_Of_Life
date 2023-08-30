@@ -1,10 +1,9 @@
-# Universidad Católica del Uruguay
-<img src="https://ucu.edu.uy/sites/all/themes/univer/logo.png">
+![UCU](./Assets/logo-ucu.png)
+# Conway's Game of Life
+## Programación II
+### FIT-Universidad Católica del Uruguay
 
-## Facultad de Ingeniería y Tecnologías
-### Programación II
 
-## Conway's Game of Life
 [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) fue un matemático inglés muy conocido por sus aportes matemáticos en diversas áreas, pero lo que realmente lo hizo famoso fue su creación lúdica: [juego de la vida](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
