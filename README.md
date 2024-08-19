@@ -1,8 +1,13 @@
-![UCU](./Assets/logo-ucu.png)
-# Conway's Game of Life
-## Programación II
-### FIT-Universidad Católica del Uruguay
+<img alt="UCU" src="https://www.ucu.edu.uy/plantillas/images/logo_ucu.svg"
+width="150"/>
 
+# Universidad Católica del Uruguay
+
+## Facultad de Ingeniería y Tecnologías
+
+### Programación II
+
+# Conway's Game of Life
 
 [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) fue un matemático inglés muy conocido por sus aportes matemáticos en diversas áreas, pero lo que realmente lo hizo famoso fue su creación lúdica: [juego de la vida](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
@@ -27,7 +32,7 @@ El objetivo será desarrollar este juego mediante objetos diferentes, cada uno c
 
 > :pencil2: Recuerda agregar comentarios a todas tus clases indicando si cumplen o no con SRP y Expert. Deberás justificar adecuadamente por que crees que cumple o no.
 
-Si todo ha funcionado correctamente, tu resultado deberia verse algo similar a esto:
+Si todo ha funcionado correctamente, tu resultado debería verse algo similar a esto:
 
 ![](./assets/console-gif-GoL.gif)
 
