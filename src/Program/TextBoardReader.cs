@@ -27,3 +27,8 @@ public class TextBoardReader
     }
 }
 
+// TextBoardReader solo se encarga de leer un archivo de texto y transformarlo en un tablero (bool[,]).
+//No calcula reglas del juego, no imprime en consola, no sabe cómo evolucionan las celdas.
+ //Si en el futuro se quisiera cambiar el formato de entrada (por ejemplo, queremos
+ //leer desde una base de datos o una API), la única clase que habría que modificar sería esta (TextBoardReader).
+
