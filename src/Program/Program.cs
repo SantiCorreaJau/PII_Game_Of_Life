@@ -1,4 +1,5 @@
 ﻿using System;
+//.
 
 namespace Ucu.Poo.GameOfLife
 {
@@ -10,3 +11,5 @@ namespace Ucu.Poo.GameOfLife
         }
     }
 }
+///
+/// fafas
