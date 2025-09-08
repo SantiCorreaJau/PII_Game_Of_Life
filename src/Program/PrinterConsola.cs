@@ -1,9 +1,9 @@
 using System;
 using System.Text;
 
-public class PrintConsola
+public static class PrinterConsola
 {
-    public void Render(bool[,] b) // No devuelve nada, toma como argumento un tablero al que llama 'b'
+    public static void Render(bool[,] b) // No devuelve nada, toma como argumento un tablero al que llama 'b'
     {
         int width = b.GetLength(0); // Incializa como argumento las dimensiones del tablero
         int height = b.GetLength(1);

@@ -3,14 +3,14 @@ using System.Threading;
 
 public class Bucle
 {
-    private PrintConsola renderer; // Guarda ConsoleRenderer en un atributo
+
     private ProxGeneracion engine; // Guarda GameOfLifeEngine en un atributo
 
-    public Bucle(PrintConsola renderer, ProxGeneracion engine) // Toma como parámetros los atributos anteriores
+    public Bucle(ProxGeneracion engine)
     {
-        this.renderer = renderer; // Guarda las referencias
         this.engine = engine;
     }
+
 
     public void Run(bool[,] initialBoard, int delay = 300) // Método que comienza el loop, toma como argumento el tablero y una variable que vamos
         // a usar para asignarle un delay a la generación de tableros
@@ -19,7 +19,8 @@ public class Bucle
 
         while (true) // Bucle infinito
         {
-            renderer.Render(b); // Dibuja el tablero actual en la consola
+            PrinterConsola.Render(b);
+
             b = engine.Next(b); // Sobreescribe el tablero actual por el próximo
 
             Thread.Sleep(delay); // Pausa la ejecución la cantidad de ms asignada
