@@ -8,7 +8,7 @@ public class PrintConsola
         int width = b.GetLength(0); // Incializa como argumento las dimensiones del tablero
         int height = b.GetLength(1);
 
-        Console.Clear(); // Limpia la consola
+//        Console.Clear(); // Limpia la consola
         StringBuilder s = new StringBuilder(); // 
         for (int y = 0; y < height; y++) // Recorre cada célula
         {
