@@ -3,7 +3,7 @@ namespace Ucu.Poo.GameOfLife;
 using System;
 using System.IO; //ESTO NOS PERMITE TRABAJAR CON ARCHIVOS
 
-public class TextBoardReader
+public class LectorTexto
 {           //LA UNICA RESPONSABILIDAD QUE TIENE ESTA CLASE ES LEER EL ARCHIVO Y DEVOLVER UNA MATRIZ
             // Devuelve la matriz bool[,] leyendo un archivo con "1" y "0"
     public bool[,] Read(string path)        

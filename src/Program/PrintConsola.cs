@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-public class ConsoleRenderer
+public class PrintConsola
 {
     public void Render(bool[,] b) // No devuelve nada, toma como argumento un tablero al que llama 'b'
     {

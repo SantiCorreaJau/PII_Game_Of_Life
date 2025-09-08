@@ -1,12 +1,12 @@
 using System;
 using System.Threading;
 
-public class GameLoop
+public class Bucle
 {
-    private readonly ConsoleRenderer renderer; // Guarda ConsoleRenderer en un atributo
-    private readonly GameOfLifeEngine engine; // Guarda GameOfLifeEngine en un atributo
+    private PrintConsola renderer; // Guarda ConsoleRenderer en un atributo
+    private ProxGeneracion engine; // Guarda GameOfLifeEngine en un atributo
 
-    public GameLoop(ConsoleRenderer renderer, GameOfLifeEngine engine) // Toma como parámetros los atributos anteriores
+    public Bucle(PrintConsola renderer, ProxGeneracion engine) // Toma como parámetros los atributos anteriores
     {
         this.renderer = renderer; // Guarda las referencias
         this.engine = engine;

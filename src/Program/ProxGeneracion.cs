@@ -1,4 +1,4 @@
-public class GameOfLifeEngine
+public class ProxGeneracion
 {
     // A partir del tablero actual, aplicando las reglas del juego, genera el siguiente
     public bool[,] Next(bool[,] gameBoard) // Devuelve un tablero de bools, toma como argumento un tablero de bools
